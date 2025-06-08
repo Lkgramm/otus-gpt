@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "phoebot"
+version = "0.1.0"
+description = "Telegram бот в стиле Фиби из 'Друзей'"
+authors = ["Твоё Имя <email@example.com>"]
+packages = [{ include = "phoebot", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^20.0"
+requests = "^2.31"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
